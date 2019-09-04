@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/redLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle_background_red"
+        android:layout_gravity="center_horizontal"
+        />
+    <RelativeLayout
+        android:id="@+id/orangeLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle_background_orange"
+        android:layout_gravity="center_horizontal"
+        />
+    <RelativeLayout
+        android:id="@+id/greenLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle_background_green"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
